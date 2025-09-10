@@ -11,8 +11,8 @@ class Persona3{
     mostrarPersona(){
         console.log(`Nombre: ${this.nombre1},
             Edad: ${this.edad},
-            Direccion: ${this.direccion}`),
-    }
+            Direccion: ${this.direccion}`);
+        }
 }
 class Empleado3 extends Persona3{
     private sueldo:number;
